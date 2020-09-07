@@ -8,9 +8,6 @@
     "editor.quickSuggestions": true
   },
   "C_Cpp.intelliSenseEngineFallback": "Enabled",
-  "files.associations": {
-    "gpio.h": "c"
-  },
-  "idf.port": "/dev/cu.usbserial-A1076LH4",
-  "idf.baudRate": "921600"
+  "idf.baudRate": "921600",
+  "idf.port": "/dev/cu.usbserial-A1076LH4"
 }
