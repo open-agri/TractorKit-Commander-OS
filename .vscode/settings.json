@@ -9,5 +9,8 @@
   },
   "C_Cpp.intelliSenseEngineFallback": "Enabled",
   "idf.baudRate": "921600",
-  "idf.port": "/dev/cu.usbserial-A1076LH4"
+  "idf.port": "/dev/cu.usbserial-A1076LH4",
+  "files.associations": {
+    "esp_log.h": "c"
+  }
 }
