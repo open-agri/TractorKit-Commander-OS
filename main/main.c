@@ -21,15 +21,21 @@
 #include "driver/gpio.h"
 #include "esp_log.h"
 #include "esp_ota_ops.h"
+#include "esp_heap_trace.h"
 
 #include "tkos.h"
 
 #define TAG "main"
 
+#define NUM_RECORDS 100
+static heap_trace_record_t trace_record[NUM_RECORDS];
+
 /**********************
  *   APPLICATION MAIN
  **********************/
 void app_main() {
+
+    ESP_ERROR_CHECK(heap_trace_init_standalone(trace_record, NUM_RECORDS));
 
     esp_log_level_set("*", ESP_LOG_INFO);
 
