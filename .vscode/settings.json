@@ -7,10 +7,14 @@
   "[c]": {
     "editor.quickSuggestions": true
   },
-  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  "C_Cpp.intelliSenseEngineFallback": "Disabled",
   "idf.port": "/dev/cu.usbserial-A1076LH4",
   "idf.baudRate": "921600",
   "files.associations": {
-    "esp_system.h": "c"
+    "*.tcc": "cpp",
+    "*.ipp": "cpp",
+    "limits": "cpp",
+    "random": "c",
+    "memory_resource": "c"
   }
 }
