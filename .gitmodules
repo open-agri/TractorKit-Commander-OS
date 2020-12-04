@@ -4,4 +4,4 @@
 	branch = release/v7
 [submodule "tkos"]
 	path = components/tkos
-	url = git@github.com:open-agri/tkos
+	url = https://github.com/open-agri/tkos.git

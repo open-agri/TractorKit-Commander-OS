@@ -42,7 +42,9 @@
     "esp_http_server.h": "c",
     "http_parser.h": "c",
     "datastore.h": "c",
-    "menu.h": "c"
+    "menu.h": "c",
+    "refresh.h": "c",
+    "ble.h": "c"
   },
   "idf.port": "/dev/ttyUSB0",
   "idf.baudRate": "921600",
