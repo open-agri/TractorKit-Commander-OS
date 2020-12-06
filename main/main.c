@@ -31,7 +31,7 @@
  **********************/
 void app_main() {
     
-    esp_log_level_set("*", ESP_LOG_INFO);
+    //esp_log_level_set("*", ESP_LOG_INFO);
 
     const esp_app_desc_t *desc = esp_ota_get_app_description();
 
