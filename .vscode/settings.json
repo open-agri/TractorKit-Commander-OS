@@ -56,7 +56,8 @@
     "nimble_npl.h": "c",
     "nimble_npl_os.h": "c",
     "tk_uuid.h": "c",
-    "ranges": "c"
+    "ranges": "c",
+    "types.h": "c"
   },
   "idf.port": "/dev/cu.usbserial-A1076LH4",
   "idf.baudRate": "921600",
